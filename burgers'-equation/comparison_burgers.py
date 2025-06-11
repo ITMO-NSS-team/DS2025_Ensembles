@@ -38,6 +38,7 @@ import math
 
 grid_res = 255
 title = 'burgers'
+#PATH_TO INITIAL DATA
 #df = pd.read_csv('C:\\Users\\YOUR_PATH\\burgers_sln_256.csv', header=None)
 initial_data = torch.from_numpy(df.to_numpy()).reshape(-1)
 
